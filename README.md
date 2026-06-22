@@ -18,6 +18,8 @@ This folder contains the configuration (`.cfg`) and spatial database (`.spatiald
 This folder contains the extracted surface velocity field results from the 3D finite element models. These datasets were used as the synthetic benchmark for comparing various strain rate estimation methods.
 * `Be15surf.xlsx`: Simulated surface velocity field from the **pure elastic model** (15 km locking depth).
 * `Bv15surf.xlsx`: Simulated surface velocity field from the **viscoelastic model** (15 km locking depth).
+* Data Availability & Mesh Files: > The 3D finite-element mesh files (.mesh or compressed archives) are too large for the main repository tree. They can be downloaded directly from the Releases page of this repository.
+  
 
 ## ⚙️ Requirements
 
