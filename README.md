@@ -1,8 +1,10 @@
-
 # Viscoelastic Modeling and Strain Rate Benchmarking: Southern Beichuan-Yingxiu Fault
 
 This repository contains the numerical simulation scripts and sample output data for the manuscript: 
 **"A viscoelastic model for interseismic deformation and benchmarking of strain rate estimation methods: Southern Beichuan-Yingxiu fault, Longmenshan tectonic belt"** (Submitted to *Geophysical Journal International*).
+
+## ⚠️ Important Note on Mesh Files
+> **Data Availability & Mesh Files:** > The 3D finite-element mesh files (`.mesh` or compressed archives) are too large for the main repository tree. They can be downloaded directly from the **[Releases](https://github.com/zhanhui111/Longmenshan-Viscoelastic-Strain/releases)** page of this repository.
 
 ## 📂 Repository Structure
 
@@ -18,8 +20,6 @@ This folder contains the configuration (`.cfg`) and spatial database (`.spatiald
 This folder contains the extracted surface velocity field results from the 3D finite element models. These datasets were used as the synthetic benchmark for comparing various strain rate estimation methods.
 * `Be15surf.xlsx`: Simulated surface velocity field from the **pure elastic model** (15 km locking depth).
 * `Bv15surf.xlsx`: Simulated surface velocity field from the **viscoelastic model** (15 km locking depth).
-* Data Availability & Mesh Files: > The 3D finite-element mesh files (.mesh or compressed archives) are too large for the main repository tree. They can be downloaded directly from the Releases page of this repository.
-  
 
 ## ⚙️ Requirements
 
@@ -33,3 +33,4 @@ To run the models, navigate to the `/scripts` directory in your terminal and exe
 
 ```bash
 pylith pylithapp.cfg longmen_interseismic_elastic.cfg
+
